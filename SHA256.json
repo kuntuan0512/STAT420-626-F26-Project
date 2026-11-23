@@ -1,0 +1,15 @@
+{
+  "colab_workflow.py": "2938fcc1d41d6e96be23bacd6c6581dd903c8845771ac1a91150748d1af271fb",
+  "design_network.py": "fb57c9f44d4b81353b78d935834dea62381199a5e5ac45b05d007666c140b6cf",
+  "eda.py": "471b5da187b3991a701c8f7bf1bb3f08866019cc34d2a9fe77415adce0261d46",
+  "LOCAL_SUBSET_AUDIT.json": "6b593f061411f155dcaaf7ac19c3f6dc6ef9fe76368ecb7f884d89469ad41d03",
+  "PAPER_REVIEW_2D.md": "b006eb949e1d1dfab8892a5517ec4b6857373bdddb06b25ab8e629e284ab5bb0",
+  "requirements_stat626.txt": "602431a254b2b7a19ef584e90e4a374b4ce906420c65c4517e4b57fb1398072e",
+  "select_subset.py": "66eb633915e58186885788a08e100d5a2b4557d965242a41cd6ce50081d8dbd9",
+  "single_slice_explained.png": "68ef70df814fc47d390eedcc0da41a84b04774a8e38175b8a5d45494c9e158e2",
+  "START_HERE.md": "1b320bf542789d731b81298a21cf03a9ea47b18119fdbcf63435c4ea1c7ec21d",
+  "STAT626_100_Patients_2D_Colab.ipynb": "269c277f202c2c8af9a4e8aef8bac1705c01fe8cc10b6d60ef7afb1bd3ca1a11",
+  "subset_selection.json": "bf38aa327c143a8764bdaae1fa8d10905d196a5e27d30223030491324262e7a4",
+  "train_model.py": "f8026dba53183ccc5f9b06169b6d01e33e1786300aa107b167d34d8bc90c12f8",
+  "VALIDATION.md": "3a36676845925d9ade63216f786002768dc960b2de27fc03fbe51a9356f9792b"
+}
