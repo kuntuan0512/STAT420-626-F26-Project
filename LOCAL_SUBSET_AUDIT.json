@@ -1,0 +1,130 @@
+{
+  "ET_positive_scans": 98,
+  "audit_scope": "full",
+  "audited_scan_folders": 100,
+  "brain_mask": "union of raw nonzero voxels across all four modalities, fixed before dropout",
+  "cohort_scope": "selected subset; full_audit refers to selected cohort only",
+  "data_volume": {
+    "counting_unit": "acquired 3D volume files; axial slices and simulated conditions are not independent patients",
+    "mri_3d_volume_files": 400,
+    "patient_groups": 100,
+    "per_modality": {
+      "t1c": {
+        "available_scan_examinations": 100,
+        "naturally_missing_scan_examinations": 0
+      },
+      "t1n": {
+        "available_scan_examinations": 100,
+        "naturally_missing_scan_examinations": 0
+      },
+      "t2f": {
+        "available_scan_examinations": 100,
+        "naturally_missing_scan_examinations": 0
+      },
+      "t2w": {
+        "available_scan_examinations": 100,
+        "naturally_missing_scan_examinations": 0
+      }
+    },
+    "scan_examinations": 100,
+    "scans_missing_segmentation": 0,
+    "scans_with_any_naturally_missing_mri": 0,
+    "scope": "all inventoried folders; file presence alone is not image-level QC",
+    "segmentation_3d_volume_files": 100
+  },
+  "excluded_scan_folders": 0,
+  "filename_grouping_is_verified_identity": false,
+  "full_audit": true,
+  "grouping_source": "filename_inference",
+  "input_channels": 16,
+  "label_codes": {
+    "0": "background",
+    "1": "non-enhancing tumor core",
+    "2": "peritumoral edema",
+    "3": "enhancing tumor"
+  },
+  "manifest_file": "inventory.csv",
+  "manifest_hash_scope": "inventory CSV bytes (case paths, identities, file presence and sizes), not all NIfTI bytes",
+  "manifest_sha256": "ad5a93222bc30c76906d2829ea0708d329610bd5feafce1e8a795e2ed625bdc0",
+  "naturally_incomplete_scans": 0,
+  "not_audited_scan_folders": 0,
+  "partial_audit": false,
+  "patient_map": null,
+  "preprocessing": "per-volume modality nonzero z-score; background remains zero; no additional resampling",
+  "qc_failed_scans": 0,
+  "qc_issues": {},
+  "qc_pass_scans": 100,
+  "region_volume_ml": {
+    "ET": {
+      "max": 99.584,
+      "median": 18.198999999999998,
+      "min": 0.0
+    },
+    "TC": {
+      "max": 128.256,
+      "median": 29.445500000000003,
+      "min": 0.561
+    },
+    "WT": {
+      "max": 252.294,
+      "median": 87.659,
+      "min": 6.5200000000000005
+    }
+  },
+  "regions": {
+    "ET": [
+      3
+    ],
+    "TC": [
+      1,
+      3
+    ],
+    "WT": [
+      1,
+      2,
+      3
+    ]
+  },
+  "requested_split_proportions": {
+    "test": 0.15,
+    "train": 0.7,
+    "validation": 0.15
+  },
+  "retained_patient_groups": 100,
+  "retained_scan_folders": 100,
+  "retained_slice_dimensions": {
+    "240x240x155": 100
+  },
+  "scan_folders_with_all_five_files": 100,
+  "simulated_conditions_scope": "full QC cohort",
+  "simulated_single_missing_views": 400,
+  "simulated_total_input_views": 500,
+  "simulated_views_are_new_acquisitions": false,
+  "source_data_root": "D:\\Rice University\\Fall 2026\\STAT626 STAT AI\\Project\\STAT420-626-F26-Project\\Dataset\\ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData",
+  "source_scan_count_before_selection": 1251,
+  "spatial_context": "three adjacent axial slices per modality; replicate boundary slices",
+  "split_ET_positive_patient_counts": {
+    "test": 15,
+    "train": 68,
+    "validation": 15
+  },
+  "split_file": "patient_splits.csv",
+  "split_is_sample": false,
+  "split_patient_counts": {
+    "test": 15,
+    "train": 70,
+    "validation": 15
+  },
+  "split_scan_counts": {
+    "test": 15,
+    "train": 70,
+    "validation": 15
+  },
+  "split_seed": 626,
+  "split_sha256": "81d9174bf8e2b0bc9af3fa5cb7473966f8b217d36a7907a257457731d5122e23",
+  "split_unit": "patient_group",
+  "stratification": "approximate; patient ET-positive if any retained scan has label 3",
+  "subset_manifest": "output\\colab_amca_100\\STAT626_AMCA_100\\subset_selection.json",
+  "total_scan_folders": 100,
+  "unique_patient_ids": 100
+}

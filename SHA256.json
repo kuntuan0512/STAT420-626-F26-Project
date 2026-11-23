@@ -1,0 +1,22 @@
+{
+  "colab_workflow.py": "4d092e48a5f1eda9f82e59f20f586e1ee5d67fcedfd23f472236caecaa35da69",
+  "design_network.py": "b14bbbbdcd52e603012dc6c91154663a15a500758badc2272a499949c26591cb",
+  "eda.py": "18187a57f7f7bc4e9b79e3da1372b7d3699b708d2b5e13e6a52a372a1520462f",
+  "LOCAL_SUBSET_AUDIT.json": "654c87333a00465848fa8f395376de1ba2a84afd6c9e40f202a0ec707b61e58f",
+  "PAPER_REVIEW_2D.md": "5b0831294917936140ae24d858b3cfd891a9318d43b2ee6e12140742fa31d26d",
+  "QUICK_CHECK_METRICS.csv": "fb125467cf465284a07afda6c3af49df442c6c0040116c3facfd5cc8ecde4015",
+  "QUICK_CHECK_SUMMARY.json": "0e03ba627980578c86a4801111a2495cbc22699c7d724656389795c4c5414a3f",
+  "region_volumes.png": "634c8d8c6d14f02f8d1f9baf4adfa62845b7ba05bd6422e978711c2da6b15da7",
+  "requirements_stat626.txt": "602431a254b2b7a19ef584e90e4a374b4ce906420c65c4517e4b57fb1398072e",
+  "segmentation_explained.png": "8bb66904972206e06f98334ac4ecca0b37febe86954c1b3be8d8d9b566a2002a",
+  "select_subset.py": "66eb633915e58186885788a08e100d5a2b4557d965242a41cd6ce50081d8dbd9",
+  "START_HERE.md": "39cb586f0bf9a792592ce2530ad4889c81191f790e89bd5e9d2d29795e0f9579",
+  "STAT626_100_Patients_2D_Colab.ipynb": "88e5114164ece17a849d352720edc2bbd4ae9373973dfb0ab0b590aabd96b525",
+  "STAT_626_Final_Project_Overleaf.zip": "190e5f6c6614d0d3cfafadabca41d35ec6e1c568ffa44b26c9f07c1b2f96f139",
+  "STAT_626_Final_Project_Report.pdf": "cc42dee2c76399ba4e0720b8fd34adb3c0ea272dee5f569a8b9aa4cf184c57d2",
+  "subset_selection.json": "bf38aa327c143a8764bdaae1fa8d10905d196a5e27d30223030491324262e7a4",
+  "three_slice_explained.png": "5eb61c4f3a6a22ad1c6f3c16006e4547b2de06a1390de3813b925bbe1b2da311",
+  "train_model.py": "90e7fa661677b143cc1cc65afcfe2c649b909f2cf116a45176346bba3362c6d3",
+  "VALIDATION.md": "78176055a4e03ffac31e395744ed017e7ee16906f4581d352e2f9886f3660e16",
+  "verify_amca.py": "6c80a7baa727d8ab5c3a7ae83228d3b9515d1e4f0a6e7f82d0b52e84f5f8e7e9"
+}

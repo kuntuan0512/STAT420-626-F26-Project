@@ -1,0 +1,359 @@
+{
+  "architecture_version": "amca_mean_query_25d_v1",
+  "complete_input_M2_minus_M1": {
+    "bootstrap_resamples": 0,
+    "bootstrap_seed": 626,
+    "ci95_lower": null,
+    "ci95_upper": null,
+    "ci_status": "insufficient_patients",
+    "comparison": "M2-M1",
+    "conditions": [
+      "complete"
+    ],
+    "mean_difference": -0.00014499094092941764,
+    "noninferiority_margin": -0.02,
+    "noninferiority_supported": null,
+    "patient_count": 1,
+    "regions": [
+      "WT",
+      "TC",
+      "ET"
+    ],
+    "scope": "between-patient uncertainty requires at least two patients",
+    "seeds": [
+      11
+    ]
+  },
+  "full_audit": false,
+  "fusion_mode": "amca",
+  "hd95_one_empty_count": 0,
+  "inference_precision": "CUDA mixed precision unless disabled; probabilities stored float16 when requested",
+  "inference_timing": "excludes loading, warmup, metrics and file writing; includes input construction and device transfer",
+  "manifest_sha256": "ad5a93222bc30c76906d2829ea0708d329610bd5feafce1e8a795e2ed625bdc0",
+  "metric_policy": {
+    "aggregation": "average scans within patient, then equal patient weighting",
+    "dice_both_empty": 1.0,
+    "dice_one_empty": 0.0,
+    "hd95": "max of directed 95th-percentile 6-connected surface distances, mm",
+    "hd95_both_empty_mm": 0.0,
+    "hd95_one_empty": "norm((shape-1)*spacing_mm), flagged finite penalty"
+  },
+  "models": [
+    "M0",
+    "M1",
+    "M2"
+  ],
+  "primary_missing_input_M2_minus_M1": {
+    "bootstrap_resamples": 0,
+    "bootstrap_seed": 626,
+    "ci95_lower": null,
+    "ci95_upper": null,
+    "ci_status": "insufficient_patients",
+    "comparison": "M2-M1",
+    "conditions": [
+      "t1n",
+      "t1c",
+      "t2w",
+      "t2f"
+    ],
+    "interpretation": "insufficient_patients",
+    "mean_difference": -0.0001314653915643341,
+    "patient_count": 1,
+    "proposal_three_seed_protocol": false,
+    "regions": [
+      "WT",
+      "TC",
+      "ET"
+    ],
+    "scope": "between-patient uncertainty requires at least two patients",
+    "seeds": [
+      11
+    ]
+  },
+  "region_condition_secondary_M2_minus_M1": [
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t1n"
+      ],
+      "mean_difference": -0.0007266063375436088,
+      "patient_count": 1,
+      "regions": [
+        "WT"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t1c"
+      ],
+      "mean_difference": -0.00039276764839439593,
+      "patient_count": 1,
+      "regions": [
+        "WT"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t2w"
+      ],
+      "mean_difference": -8.313251178186654e-05,
+      "patient_count": 1,
+      "regions": [
+        "WT"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t2f"
+      ],
+      "mean_difference": -6.0862192091531986e-05,
+      "patient_count": 1,
+      "regions": [
+        "WT"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t1n"
+      ],
+      "mean_difference": -9.361802285959286e-05,
+      "patient_count": 1,
+      "regions": [
+        "TC"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t1c"
+      ],
+      "mean_difference": -0.0001058682385605414,
+      "patient_count": 1,
+      "regions": [
+        "TC"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t2w"
+      ],
+      "mean_difference": 0.00010082615167781792,
+      "patient_count": 1,
+      "regions": [
+        "TC"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t2f"
+      ],
+      "mean_difference": -6.182515585642992e-05,
+      "patient_count": 1,
+      "regions": [
+        "TC"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t1n"
+      ],
+      "mean_difference": -9.373009512028685e-05,
+      "patient_count": 1,
+      "regions": [
+        "ET"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t1c"
+      ],
+      "mean_difference": -9.880782719946454e-05,
+      "patient_count": 1,
+      "regions": [
+        "ET"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t2w"
+      ],
+      "mean_difference": 0.00010074298771448054,
+      "patient_count": 1,
+      "regions": [
+        "ET"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    },
+    {
+      "analysis_role": "descriptive_secondary",
+      "bootstrap_resamples": 0,
+      "bootstrap_seed": 626,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "ci_status": "insufficient_patients",
+      "comparison": "M2-M1",
+      "conditions": [
+        "t2f"
+      ],
+      "mean_difference": -6.193580875658855e-05,
+      "patient_count": 1,
+      "regions": [
+        "ET"
+      ],
+      "scope": "between-patient uncertainty requires at least two patients",
+      "seeds": [
+        11
+      ]
+    }
+  ],
+  "secondary_missing_input_M1_minus_M0": {
+    "analysis_role": "descriptive_secondary",
+    "bootstrap_resamples": 0,
+    "bootstrap_seed": 626,
+    "ci95_lower": null,
+    "ci95_upper": null,
+    "ci_status": "insufficient_patients",
+    "comparison": "M1-M0",
+    "conditions": [
+      "t1n",
+      "t1c",
+      "t2w",
+      "t2f"
+    ],
+    "mean_difference": -0.00036730073819309556,
+    "patient_count": 1,
+    "regions": [
+      "WT",
+      "TC",
+      "ET"
+    ],
+    "scope": "between-patient uncertainty requires at least two patients",
+    "seeds": [
+      11
+    ]
+  },
+  "seeds": [
+    11
+  ],
+  "split_sha256": "33bac1f6d71bf0083d8fe3ca1fab65c410e99227c8044079ce879f22c2bf109b",
+  "test_patient_groups": 1,
+  "test_scans": 1
+}
